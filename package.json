@@ -1,0 +1,51 @@
+{
+    "name": "theme-charcoal-mint",
+    "version": "1.0.0",
+    "displayName": "The Charcoal Mint Co.",
+    "description": "A refreshing dark theme with charcoal background and mint accents that reduces eye strain and brings natural freshness to your coding experience",
+    "publisher": "charcoal-mint-studio",
+    "license": "MIT",
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": ["Themes"],
+    "keywords": [
+        "charcoal-mint",
+        "dark",
+        "theme",
+        "color-theme",
+        "mint",
+        "green",
+        "charcoal",
+        "nature",
+        "fresh",
+        "eye-friendly"
+    ],
+    "icon": "pictures/icon.png",
+    "galleryBanner": {
+        "color": "#2c2f2c",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Charcoal Mint",
+                "uiTheme": "vs-dark",
+                "path": "./theme/charcoal-mint.json"
+            },
+            {
+                "label": "Charcoal Mint Soft",
+                "uiTheme": "vs-dark",
+                "path": "./theme/charcoal-mint-soft.json"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/danganhtai959-droid/The-Charcoal-Mint-VS-Code"
+    },
+    "bugs": {
+        "url": "https://github.com/danganhtai959-droid/The-Charcoal-Mint-VS-Code/issues"
+    },
+    "homepage": "https://github.com/danganhtai959-droid/The-Charcoal-Mint-VS-Code#readme"
+}
